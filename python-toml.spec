@@ -3,7 +3,7 @@
 
 Name:           python-%{pypi_name}
 Version:        0.10.2
-Release:        1
+Release:        2
 Summary:        Python Library for Tom's Obvious, Minimal Language
 Group:          Development/Python
 License:        MIT
@@ -39,4 +39,4 @@ rm -rf %{pypi_name}.egg-info
 %license LICENSE
 %doc README.rst
 %{python_sitelib}/%{pypi_name}
-%{python_sitelib}/%{pypi_name}-%{version}-py?.?.egg-info
+%{python_sitelib}/%{pypi_name}-%{version}-py*.*.egg-info
