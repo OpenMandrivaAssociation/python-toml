@@ -2,7 +2,7 @@
 
 Name:		python-%{pypi_name}
 Version:	0.10.2
-Release:	4
+Release:	5
 Summary:	Python Library for Tom's Obvious, Minimal Language
 Group:		Development/Python
 License:	MIT
